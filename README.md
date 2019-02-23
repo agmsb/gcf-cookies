@@ -1,1 +1,15 @@
 # gcf-cookies
+
+A stupid simple Google Cloud Function that responds to an HTTP request with a cookie from a request's HTTP headers.
+
+## Requirements
+
+* Google Cloud Platform project
+* gcloud set up and initialized for a project with the Cloud Functions API enabled.
+
+## Usage
+
+```
+git clone https://github.com/agmsb/gcf-cookies.git && cd gcf-cookies && gcloud functions deploy gcf-cookies --runtime nodejs6 --entry-point helloCookie --trigger-http
+```
+
