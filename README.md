@@ -2,6 +2,8 @@
 
 A stupid simple Google Cloud Function that responds to an HTTP request with a cookie from a request's HTTP headers.
 
+This is NOT an official Google product.
+
 ## Requirements
 
 * Google Cloud Platform project
